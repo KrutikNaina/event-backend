@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(express.json());
 app.use(cors({
-    origin: ["https://event-management-xi-umber.vercel.app", "http://localhost:5173", "http://localhost:5000"],
+    origin: ["https://event-frontend-roan.vercel.app/", "http://localhost:5173", "http://localhost:5000"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
